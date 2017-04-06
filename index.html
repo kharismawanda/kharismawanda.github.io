@@ -9,6 +9,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lobster|Merriweather" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="index.css">
+	<script src="index.js"></script>
 
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -22,6 +23,20 @@
 
 </head>
 <body>
+<nav id='navatas' class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">KharismaWeb</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Menu</a></li>
+      <li><a href="#">Gallery</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+</nav>
 <div class = "container" style= "background-color : rgba(255, 255, 255, 0.5)">
 			<div class = "jumbotron" style="background-image: url(tumblr_nxxwti97AI1s30ko5o1_500.gif); background-size: 100%;">
 				<div style="text-align: center">
@@ -38,30 +53,20 @@
 			<p5>Developed by kharismawanda</p5>
 			</marquee>
 			<br></br>
-				<h>
-				<div style="text-align: center;">
-				<button type="button"> | HOME</button> 
-				<button type="button"> | MENU</button>
-				<button type="button"> | GALLERY</button>
-				<button type="button"> | ABOUT</button>
-				<button type="button"> | CONTACT</button>
-				</h>
-			</div>
+				<form>
+  					<div>
+   						<button onclick = "klik()"; type ="Search" class="tengah btn-primary" style="background-color: brown;"><span class="	glyphicon glyphicon-Search"></span>SEARCH</button>
+  					</div>
+ 				</form>
+			
 			<br></br>
 		</div>
-
-		<form>
-	  <div>
-	   <button type ="Search" class="tengah btn-primary" style="background-color: brown ; color:white"> <span class="glyphicon glyphicon-search"></span>Search Your Favourite Coffee</button>
-	  </div>
-	 </form>
-
 		<br></br>
 		<div style="text-align: center;" font-family: 'Merriweather', serif;>
-		<marquee>
-		<h7>GOOD DAYS START WITH COFFEE AND YOU</h7>
-		</marquee>
-	</div>
+			<marquee>
+			<h7>GOOD DAYS START WITH COFFEE AND YOU</h7>
+			</marquee>
+		</div>
 		<br></br>
 
 		<h8>
@@ -91,13 +96,12 @@
 	<h2>Where Coffee From?</h2>
 	<div style="text-align: center;">
 		<img src="q.jpg" class="kopii2">
-	<div></div>
-	<p id="p2">Coffee is a brewed drink prepared from roasted coffee beans, which are the seeds of berries from the Coffea plant. The genus Coffea is native to tropical Africa, and Madagascar, the Comoros, Mauritius and Réunion in the Indian Ocean.[2] The plant was exported from Africa to countries around the world and coffee plants are now cultivated in over 70 countries, primarily in the equatorial regions of the Americas, Southeast Asia, India, and Africa. The two most commonly grown are the highly regarded arabica, and the less sophisticated but stronger and more hardy robusta. Once ripe, coffee berries are picked, processed, and dried. Dried coffee seeds (referred to as beans) are roasted to varying degrees, depending on the desired flavor. Roasted beans are ground and brewed with near boiling water to produce coffee as a beverage.
+
+	<p style="text-align: left;" id="p2">Coffee is a brewed drink prepared from roasted coffee beans, which are the seeds of berries from the Coffea plant. The genus Coffea is native to tropical Africa, and Madagascar, the Comoros, Mauritius and Réunion in the Indian Ocean.[2] The plant was exported from Africa to countries around the world and coffee plants are now cultivated in over 70 countries, primarily in the equatorial regions of the Americas, Southeast Asia, India, and Africa. The two most commonly grown are the highly regarded arabica, and the less sophisticated but stronger and more hardy robusta. Once ripe, coffee berries are picked, processed, and dried. Dried coffee seeds (referred to as beans) are roasted to varying degrees, depending on the desired flavor. Roasted beans are ground and brewed with near boiling water to produce coffee as a beverage.
 
 	The earliest credible evidence of coffee-drinking appears in the middle of the 15th century in the Sufi shrines of Yemen.[6] It was here in Arabia that coffee seeds were first roasted and brewed in a similar way to how it is now prepared. Coffee seeds were first exported from East Africa to Yemen, as the coffea arabica plant is thought to have been indigenous to the former.[7] Yemeni traders took coffee back to their homeland and began to cultivate the seed. By the 16th century, it had reached Persia, Turkey, and North Africa. From there, it spread to Europe and the rest of the world.</p>
 
 	<h3>Benefits of Coffee??</h3>
-	<img src="u.jpg" class="kopii2">
 	<p id="p3">
 	Coffee offers a wealth of health benefits -- there's its well-known ability to temporarily boost concentration and alertness, and drinking coffee might also lower your risk of liver disease and type 2 diabetes, explains the Linus Pauling Institute. Black coffee is a healthier alternative to coffee flavored with calorie-laden cream and sugar, and it might also help you lose weight. Just make sure you don't overdo it -- too much caffeine can have negative health effects.
 	Cut Calories, Lose Weight
